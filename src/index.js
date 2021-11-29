@@ -40,3 +40,86 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 console.log('project wired!')
+
+//VARIABLES
+const navLinks = document.querySelectorAll('nav a');
+
+const logoPic = getElementById('logo-img');
+
+const ctaTextHeadline = getElementByTagName('h1');
+
+const ctaTextButton = getElementByTagName('button');
+
+const ctaImg = getElementById('cta-img');
+
+const featuresHeading = document.querySelector('.text-content h4:nth-of-type(1)');
+
+const featuresText = document.querySelector('.text-content p:nth-of-type(1)');
+
+const aboutHeading = document.querySelector('.text-content h4:nth-of-type(2)');
+
+const aboutText = document.querySelector('.text-content h4:nth-of-type(2)');
+
+const middleImage = document.querySelector('#middle-img');
+
+const servicesHeading = document.querySelector('.text-content h4:nth-of-type(3)');
+
+const servicesText = document.querySelector('.text-content h4:nth-of-type(3)');
+
+const productHeading = document.querySelector('.text-content h4:nth-of-type(4)');
+
+const productText = document.querySelector('.text-content h4:nth-of-type(4)');
+
+const visionHeading = document.querySelector('.text-content h4:nth-of-type(5)');
+
+const visionText = document.querySelector('.text-content h4:nth-of-type(5)');
+
+const contactHeading = document.querySelector('.contact h4');
+
+const contactAddress = document.querySelector('.contact p:nth-of-type(1)');
+
+const contactPhone = document.querySelector('.contact p:nth-of-type(2)');
+
+const contactEmail = document.querySelector('.contact p:nth-of-type(3)');
+
+const footerLink = document.querySelector('.footer a');
+
+//add italic class to nav anchors
+
+//#logo-img needs src 
+
+//.cta-text h1 needs .textContent = 'DOM is Awesome'
+
+//.cta-text button needs .textContent = 'Get Started'
+
+//#cta-img needs src 
+
+//.text-content(1) h4 and p needs .textContent (Features)
+
+//.text-content(2) h4 and p needs .textContent (About)
+
+//#middle-img needs src
+
+//BOTTOM CONTENT
+
+//.text-context(1) h4 and p need .textContent (Services)
+
+//.text-context(2) h4 and p need .textContent (Product)
+
+//.text-context(3) h4 and p need .textContent (Vision)
+
+//CONTACT CONTENT
+
+//.contact h4 needs .textContent = 'Contact'
+
+//.contact (address) .textContent = '123 Way 456 Street Somewhere, USA'
+
+//.contact (phone) .textContent = '1 (888) 888-8888'
+
+//.contact (email) .textContent = 'sales@greatidea.io'
+
+//FOOTER
+
+//.footer a .className = 'bold' 
+
+//.footer a needs .textContent = 'Copyright Great Idea! 2021'
