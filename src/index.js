@@ -85,41 +85,63 @@ const contactEmail = document.querySelector('.contact p:nth-of-type(3)');
 const footerLink = document.querySelector('.footer a');
 
 //add italic class to nav anchors
+navLinks.className = 'italic';
 
 //#logo-img needs src 
+logoPic.src = 'http://localhost:9000/img/logo.png';
 
 //.cta-text h1 needs .textContent = 'DOM is Awesome'
+ctaTextHeadline.textContent = 'DOM is Awesome';
 
 //.cta-text button needs .textContent = 'Get Started'
+ctaTextButton.textContent = 'Get Started';
 
 //#cta-img needs src 
+ctaImg.src = 'http://localhost:9000/img/cta.png';
 
 //.text-content(1) h4 and p needs .textContent (Features)
+featuresHeading.textContent = 'Features';
+
+featuresText.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
 //.text-content(2) h4 and p needs .textContent (About)
+aboutHeading.textContent = 'About';
+
+aboutText.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
 //#middle-img needs src
-
+middleImage.src = 'http://localhost:9000/img/accent.png';
 //BOTTOM CONTENT
 
-//.text-context(1) h4 and p need .textContent (Services)
+//.text-context(3) h4 and p need .textContent (Services)
+servicesHeading.textcontent = 'Services';
 
-//.text-context(2) h4 and p need .textContent (Product)
+servicesText.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
-//.text-context(3) h4 and p need .textContent (Vision)
+//.text-context(4) h4 and p need .textContent (Product)
+productHeading.textContent = 'Product';
+
+productText.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+//.text-context(5) h4 and p need .textContent (Vision)
+visionHeading.textContent = 'Vision';
+
+visionText.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi.Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
 //CONTACT CONTENT
 
 //.contact h4 needs .textContent = 'Contact'
+contactHeading.textContent = 'Contact';
 
 //.contact (address) .textContent = '123 Way 456 Street Somewhere, USA'
-
+contactAddress.textContent = '123 Way 456 Street Somewhere, USA';
 //.contact (phone) .textContent = '1 (888) 888-8888'
-
+contactPhone.textContent = '1 (888) 888-8888';
 //.contact (email) .textContent = 'sales@greatidea.io'
-
+contactEmail.textContent = 'sales@greatidea.io';
 //FOOTER
 
 //.footer a .className = 'bold' 
-
+footerLink.className = 'bold';
 //.footer a needs .textContent = 'Copyright Great Idea! 2021'
+footerLink.textContent = 'Copyright Great Idea! 2021';
